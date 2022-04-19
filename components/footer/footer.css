@@ -1,0 +1,27 @@
+.footer {
+    background-color: #fff;
+}
+
+.header_title_h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 48px;
+    color: #212429;
+    text-align: center;
+}
+
+.paragraf_footer {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #212429;
+max-width: 640px;
+height: 96px;
+margin: 0 auto;
+
+}
