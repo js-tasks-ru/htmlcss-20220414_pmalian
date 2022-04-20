@@ -1,0 +1,44 @@
+body {
+    margin: 0 auto;
+    color: white;
+    width: 1000px;
+}
+header {
+    background-color: red;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 22px;
+   
+}
+
+nav {
+    background-color: orange;
+    text-align: center;
+    height: 40px;
+    font-size: 30px;
+    padding: 5px;
+}
+a {
+    color:white;
+}
+
+main {
+    background-color: green;
+    padding: 1px 8px 1px 8px;
+}
+
+article {
+    background-color: blue;
+    padding: 9px;
+    height: 126px;
+    margin: 15px;
+}
+
+footer {
+    background-color: rgb(184, 29, 245);
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
