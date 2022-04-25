@@ -1,51 +1,68 @@
 /* Стилизация кнопки */
 
-body {
+.button {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 19px;
     letter-spacing: 0em;
     text-align: center;
-    margin-top: 30px;
-}
-
-.buttons__style--all {
     width: 189px;
     height: 48px;
     border-radius: 8px;
     color: white;
     border: none;
+    margin-bottom: 10px;
+    
 }
 
-.buttons_primary {
+.button_primary {
     background-color:#4263EB;
 }
 
-.buttons_primary--pointer:hover:active:focus {
+.button_primary:hover {
+    background-color:#2342C0;
+}
+.button_primary:active {
     background-color:#2342C0;
 }
 
-.buttons_secondary {
+.button_primary:focus {
+    background-color:#2342C0;
+}
+.button_secondary {
     background-color:#7048E8;
 }
 
-.buttons_secondary--pointer:hover:active:focus {
+.button_secondary:hover {
     background-color: #5028C6;
 }
-
-.buttons_alternate {
+.button_secondary:active{
+    background-color: #5028C6;
+}
+.button_secondary:focus {
+    background-color: #5028C6;
+}
+.button_alternate {
     border: 1px solid #ACB5BD;
     color: #495057;
     box-sizing: border-box; 
 }
 
-.buttons_alternate--pointer:hover:active:focus {
+.button_alternate:hover {
+    border: 1px solid #212429;
+    box-sizing: border-box;
+}
+.button_alternate:active {
+    border: 1px solid #212429;
+    box-sizing: border-box;
+}
+.button_alternate:focus {
     border: 1px solid #212429;
     box-sizing: border-box;
 }
 
-.disabled {
+.button:disabled {
     pointer-events: none;
     opacity: 0.5;
 }
