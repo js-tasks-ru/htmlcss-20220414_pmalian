@@ -1,4 +1,12 @@
 .preview {
     background: #F9FAFC;
     height: 1036px;
+
+}
+
+.prewiew__inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:5px;
 }
