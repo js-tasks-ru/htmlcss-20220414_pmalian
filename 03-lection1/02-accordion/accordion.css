@@ -15,16 +15,10 @@
     
     .accordion__item {
         display: block;
-        border: 1px solid #ACB5BD;
+        border: 1px solid var(--grey-3);
         box-sizing: border-box;
         border-radius: 8px;
-        height: 144px;
-        width: 730px;
         margin-bottom: 8px;
-        padding-top: 24px;
-        padding-left: 32px;
-        padding-right: 48px;
+        padding: 24px 32px
     }
-    .accordion__item--height {
-        height: 72px;
-    }
+ 
