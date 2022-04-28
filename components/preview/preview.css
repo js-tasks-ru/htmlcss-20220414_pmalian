@@ -4,9 +4,17 @@
 
 }
 
-.prewiew__inner {
+.preview__inner {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    gap:5px;
+    justify-content: space-between;
+    gap:30px;
+}
+
+.preview__inner--card {
+    background-color: var(--blue);
+    width: calc(33.3333% - 30px);
+    height: 280px;
+    box-sizing: border-box;
+    border-radius: 8px;
 }
