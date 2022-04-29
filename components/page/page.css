@@ -44,7 +44,7 @@
     font-weight: 400;
     font-size: 28px;
     line-height: 38px;
-    color: #495057;
+    color: var(--grey-4);
     padding-left: 48px;
 }
 
@@ -73,7 +73,7 @@
     line-height: 18px;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color:  #ACB5BD;
+    color:  var(--grey-3);
     text-align: center;
 }
 li {
@@ -93,5 +93,5 @@ a {
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
-    color: #212429;
+    color: var(--black);
 }
