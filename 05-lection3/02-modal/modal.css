@@ -1,21 +1,25 @@
 .modal {
-    width: 508px;
-    height: 381px;
+    width: 100vw;
+    height: 100vh;
     margin: 0 auto;
-    background: #C4C4C4;
-    position: relative;
+    background: rgb(211, 210, 211);
+    position: fixed;
+    top:0;
+    left:0;
+    
     
 }
 
 
 
 .modal__inner {
-    width: 428px;
-    height: 294px;
+    /* width: 428px;
+    height: 294px; */
     background: #FFFFFF;
     border-radius: 8px;
     margin: 40px 40px 47px 40px;
     position: absolute;
+    text-align: centerqq;
 }
 
 .modal__title {
