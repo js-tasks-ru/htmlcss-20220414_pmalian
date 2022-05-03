@@ -1,0 +1,13 @@
+.avatar {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 12px;
+}
+
+
+.avatar_picture {
+    background-image:  url('Elipse 1.png');
+    background-repeat: no-repeat; 
+    padding: 58px 95px 149px 95px;
+    text-align: center;
+}
