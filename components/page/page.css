@@ -1,9 +1,99 @@
 .page {
+    font-family: 'Inter';
+    padding-right: 165px;
+    padding-left: 165px;
+    padding-top: 24px;
     height: 100%;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    /* grid-template-rows: 1fr 3fr 1fr; */
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: 
+    "header  header"                 
+    "aside  main"             
+    "footer  footer"
 }
 
+.page__header {
+    grid-area: header;
+    /* background-color: green; */
+    height: 118px;
+}
+.page__header {
+    display: flex;
+    justify-content: space-between;
+}
+.page__header__menu {
+    display: flex;
+}
+
+.page__header__menu--padding {
+    padding-right: 24px;
+}
+.page__header__menu--color {
+    color: #ACB5BD;
+}
 .page__main {
-    flex-grow: 1;
+    grid-area: main;
+    /* background-color: pink; */
+    
+}
+
+.page__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    color: var(--grey-4);
+    padding-left: 48px;
+}
+
+.page__aside {
+    grid-area: aside;
+}
+
+.page__aside-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    padding-bottom: 16px;
+    margin: 0;
+}
+.page__footer {
+    grid-area: footer;
+    height: 130px;
+}
+.page__footer-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color:  var(--grey-3);
+    text-align: center;
+}
+
+.list__item {
+    list-style-type: none; 
+   }
+
+.list {
+       padding: 0;
+       margin: 0;
+       padding-bottom: 32px ;
+   }
+
+
+.list__link {
+    text-decoration:none ;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--black);
 }
