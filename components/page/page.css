@@ -38,7 +38,7 @@
     
 }
 
-.page__main__title {
+.page__title {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -52,7 +52,7 @@
     grid-area: aside;
 }
 
-.page__aside__title {
+.page__aside-title {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -65,7 +65,7 @@
     grid-area: footer;
     height: 130px;
 }
-.page__footer__title {
+.page__footer-title {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -76,17 +76,19 @@
     color:  var(--grey-3);
     text-align: center;
 }
-li {
+
+.list__item {
     list-style-type: none; 
-    
-    
    }
-ul {
+
+.list {
        padding: 0;
        margin: 0;
        padding-bottom: 32px ;
    }
-a {
+
+
+.list__link {
     text-decoration:none ;
     font-family: 'Inter';
     font-style: normal;
