@@ -1,10 +1,11 @@
+body { padding: 100px; text-align:center; }
+
 .tooltip {
     font-family: 'Inter';
-   
     display: inline-block;
     position: relative;
-    top: 20px;
-    left: 100px;
+    /* top: 20px;
+    left: 100px; */
 }
 
 
@@ -15,7 +16,7 @@
     border-radius: 10px;
     width: 129px;
     height: 45px;
-    display: none;
+    /* display: none; */
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -24,9 +25,11 @@
     padding-top:13px;
     color: var(--grey-2);
     position: absolute;
-    top:150%;
-    left: calc(50% - 62px);
-    bottom: calc(100% + 62px)
+    /* top:150%; */
+    left: 50%;   
+     /* calc(50% - 62px); */
+    transform: translateX(65px);
+    bottom: calc(100% + 15px)
    
 }
 
@@ -39,15 +42,15 @@
     position: absolute;
     bottom: 100%;
     top:100%;
-    left: calc(50% - 14px);
+    left: calc(50% - 12px);
 }
 
-.tooltip__icon {
+/* .tooltip__icon {
     text-align: center;
     position: absolute; 
     bottom: -17vh;
     right: -1vw; 
-}
+} */
 
 .tooltip__icon:hover ~ .tooltip__hint {
     display:block;
