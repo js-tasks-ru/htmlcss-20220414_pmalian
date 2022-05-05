@@ -16,6 +16,7 @@
 
 .skeleton__topItem {
    padding-top: 8px;
+   width: 100%;
 }
 
 .skeleton__item--widthOne {
@@ -23,7 +24,7 @@
 }
 
 .skeleton__item--widthTwo {
-    width: 257px;
+    width: 50%;
 }
 .skeleton__item--widthThree{
     width: 100%;
