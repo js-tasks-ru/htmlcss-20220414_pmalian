@@ -1,0 +1,36 @@
+.modal {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(211, 210, 211, 0.5);
+    position: fixed;
+    top:0;
+    left:0;
+    display: none;
+}
+
+.modal__inner {
+    max-width: 428px;
+    background: var(--white);
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 40px 33px 40px;
+}
+
+.modal__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #334D6E;
+}
+
+.modal__icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}

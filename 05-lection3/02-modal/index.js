@@ -8,11 +8,13 @@
     }
 
     modalOpen.addEventListener('click', () => {
+        console.log('open')
         modal.style.display = 'block';
         document.body.overflow = 'hidden';
     });
 
     close.addEventListener('click', () => {
+        console.log('close')
         modal.style.display = 'none';
         document.body.overflow = 'initial';
     });
