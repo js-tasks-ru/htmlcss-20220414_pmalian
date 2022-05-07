@@ -1,7 +1,7 @@
 .modal {
-    width: 100vw;
+    /* width: 100vw;
     height: 100vh;
-    margin: 0 auto;
+    margin: 0 auto; */
     background: rgba(211, 210, 211, 0.5);
     position: fixed;
     top:0;
@@ -10,12 +10,12 @@
 
 .modal__inner {
     max-width: 428px;
-    background: #FFFFFF;
+    background: var(--white);
     border-radius: 8px;
     position: absolute;
-    top:32%;
-    left:32%;
-    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 
 .modal__title {
