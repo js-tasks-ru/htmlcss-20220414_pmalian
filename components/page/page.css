@@ -22,16 +22,17 @@
     display: flex;
     justify-content: space-between;
 }
-.page__header__menu {
+.page__menu {
     display: flex;
-}
-
-.page__header__menu--padding {
-    padding-right: 24px;
-}
-.page__header__menu--color {
     color: #ACB5BD;
 }
+
+.page__item {
+    padding-right: 24px;
+}
+/* .page__header__menu--color {
+    color: #ACB5BD;
+} */
 .page__main {
     grid-area: main;
     /* background-color: pink; */
