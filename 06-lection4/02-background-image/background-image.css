@@ -1,0 +1,25 @@
+.image {
+        margin: 0;
+        height: 100%;
+        background-image: url(../02-background-image/public/forest_2560.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+@media (max-width:1024) {
+    .image{
+        background-image: url(../02-background-image/public/forest_1024.jpg);
+    } }
+
+@media (max-width:768) {
+        .image {
+            background-image: url(../02-background-image/public/forest_768.jpg);
+        }
+}
+
+@media (max-width:400) {
+    .image {
+        background-image: url(../02-background-image/public/forest_400.jpg);
+    }
+}
+
