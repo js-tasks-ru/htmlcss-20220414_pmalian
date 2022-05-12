@@ -1,10 +1,10 @@
 .toggle {
     display: inline-block;
-    position: relative;
+    /* position: relative; */
 }
 
 .toggle__input {
-    position: absolute;
+    /* position: absolute; */
     clip:rect(0,0,0,0);
 }
 
