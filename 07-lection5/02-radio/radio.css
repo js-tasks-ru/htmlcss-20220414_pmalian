@@ -39,16 +39,6 @@
     display: block;
 }
 
-/* .radio__title--focus {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--grey-4);
-    display: none;
-} */
-
 .radio__input:checked ~ .radio__state .radio__control {
     border-color: var(--blue-3);
 }
@@ -60,10 +50,6 @@
 .radio__input:checked ~ .radio__title {
     display: none;
 }
-
-/* .radio__input:checked ~ .radio__title--focus {
-    display: block;
-} */
 
 .radio__input:disabled ~ .radio__state .radio__control {
     background: var(--grey-2);
