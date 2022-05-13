@@ -1,5 +1,5 @@
 
-.title__input {
+.input__title {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -40,42 +40,38 @@
 
   }
 
-  .input__success {
+  .input_success {
     position: relative;
   }
 
-  .input__item__success::placeholder {
+  .input_success .input__item::placeholder {
     color: rgba(73, 80, 87, 1);
   }
 
-  .input__icon--succes {
+  .input__icon {
     position: absolute;
+    right: 16px;
+    bottom: 16px;
     left: 23%;
     bottom: 25%;
   }
 
-  .input__item__error {
+  .input_error {
     box-sizing: border-box;
     background: #FFFFFF;
     border: 1px solid #F03D3E;
     box-shadow: 0px 1px 1px rgba(240, 61, 62, 0.1);
     border-radius: 8px;
   }
-  .input__item__error:focus {
+  .input_error .input__item :focus {
     border: 1px solid #F03D3E;
     /* box-shadow: 0px 1px 1px rgba(240, 61, 62, 0.1); */
   }
 
-  .input__item__error::placeholder {
+  .input__error .input__item::placeholder {
     color: rgba(73, 80, 87, 1);
   }
 
   .input__error {
       position: relative;
-  }
-
-  .input__icon--error {
-      position: absolute;
-      left: 23%;
-      bottom: 26%;
   }
